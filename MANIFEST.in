@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hydraulics *.css
+recursive-include hydraulics *.csv
+recursive-include hydraulics *.html
+recursive-include hydraulics *.ico
+recursive-include hydraulics *.js
+recursive-include hydraulics *.json
+recursive-include hydraulics *.md
+recursive-include hydraulics *.png
+recursive-include hydraulics *.py
+recursive-include hydraulics *.svg
+recursive-include hydraulics *.txt
+recursive-exclude hydraulics *.pyc
