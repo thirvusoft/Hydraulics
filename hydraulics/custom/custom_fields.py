@@ -10,8 +10,4 @@ def customize():
                 fieldtype='Small Text', insert_after='items', read_only=0),
         ]
                 }
-
-            
     create_custom_fields(custom_fields)
-
-
