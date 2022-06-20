@@ -57,7 +57,7 @@ app_license = "MIT"
 # ------------
 
 # before_install = "hydraulics.install.before_install"
-# after_install = "hydraulics.install.after_install"
+after_install = "hydraulics.custom.customfields.creation"
 
 # Uninstallation
 # ------------
